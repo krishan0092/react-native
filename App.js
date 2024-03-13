@@ -21,14 +21,8 @@ const App = () => {
     requestUserPermission();
     getnotification();
   }, []);
-  return (
-    // <View style={{flex: 1}}>
-    //   <Navigator/>
-    // </View>
-    <View style={{flex: 1}}>
-      <GoogleSignIn />
-    </View>
-  );
+
+  return <View style={{flex: 1}}></View>;
 };
 
 export default App;

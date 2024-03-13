@@ -1,3 +1,5 @@
+// push-notifications demo...
+
 import messaging from '@react-native-firebase/messaging';
 import {PermissionsAndroid, Platform} from 'react-native';
 
