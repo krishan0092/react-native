@@ -14,6 +14,7 @@ import {
   getnotification,
   requestUserPermission,
 } from './src/utl/FirebaseMesseging';
+import Responsive from './src/Responsivee';
 
 const App = () => {
   useEffect(() => {
@@ -26,7 +27,7 @@ const App = () => {
     //   <Navigator/>
     // </View>
     <View style={{flex: 1}}>
-      <GoogleSignIn />
+      <Responsive />
     </View>
   );
 };
